@@ -121,3 +121,119 @@ body {
 input:focus {
   font-size: 20px;
 }
+
+@media (max-width: 480px) {
+  .login-div {
+    width: 344px;
+    height: 560px;
+    padding: 40px 20px 20px 20px;
+  }
+
+  .logo {
+    width: 85px;
+    height: 85px;
+    background-position-y: -15px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .fields {
+    padding: 40px 5px 5px 5px;
+  }
+
+  .username,
+  .password {
+    margin-bottom: 25px;
+  }
+
+  .fields input {
+    font-size: 16px;
+    padding: 15px 5px 15px 3px;
+  }
+
+  .svg-icon {
+    height: 18px;
+    margin: 0 6px 0 15px;
+  }
+
+  .login-button {
+    height: 47px;
+    font-size: 18px;
+  }
+
+  .login-button:hover {
+    font-size: 19px;
+  }
+
+  .link {
+    padding-top: 15px;
+  }
+
+  .link a {
+    font-size: 14px;
+  }
+
+  .link a:hover {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  .login-div {
+    width: 275.2px;
+    height: 448px;
+    padding: 30px 15px 15px 15px;
+  }
+
+  .logo {
+    width: 75px;
+    height: 75px;
+    background-position-y: -15px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .fields {
+    padding: 30px 3px 3px 3px;
+  }
+
+  .username,
+  .password {
+    margin-bottom: 20px;
+  }
+
+  .fields input {
+    font-size: 14px;
+    padding: 10px 3px 10px 2px;
+  }
+
+  .svg-icon {
+    height: 16px;
+    margin: 0 4px 0 10px;
+  }
+
+  .login-button {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .login-button:hover {
+    font-size: 17px;
+  }
+
+  .link {
+    padding-top: 13px;
+  }
+
+  .link a {
+    font-size: 13px;
+  }
+
+  .link a:hover {
+    font-size: 14px;
+  }
+}
